@@ -161,10 +161,27 @@ class NotificationService {
         ).subtract(Duration(days: daysBefore));
         
         if (scheduledDate.isAfter(DateTime.now())) {
+          // Calcul du nombre de jours avant le jeûne
+          final fastingDateOnly = DateTime(fastingDay.date.year, fastingDay.date.month, fastingDay.date.day);
+          final todayOnly = DateTime(now.year, now.month, now.day);
+          final daysUntil = fastingDateOnly.difference(todayOnly).inDays;
+
+          // Label "dans X jours" / "demain" / "aujourd'hui"
+          String countdownLabel;
+          if (daysUntil == 0) {
+            countdownLabel = language == 'fr' ? "aujourd'hui" : "today";
+          } else if (daysUntil == 1) {
+            countdownLabel = language == 'fr' ? "demain" : "tomorrow";
+          } else {
+            countdownLabel = language == 'fr' ? "dans $daysUntil jours" : "in $daysUntil days";
+          }
+
           // Formatage de la date selon la locale
           final formattedDate = DateFormat.yMMMMEEEEd(language).format(fastingDay.date);
-          final description = fastingDay.getDescription(localizations);
-          final body = '$formattedDate — $description';
+          // Bienfaits traduits
+          final benefits = fastingDay.getNotifBenefits(localizations);
+          // Body final : "lundi 15 juin 2026 (dans 3 jours) — Bienfaits..."
+          final body = '$formattedDate ($countdownLabel) — $benefits';
           await scheduleFastingReminder(
             id: notifId++,
             scheduledDate: scheduledDate,

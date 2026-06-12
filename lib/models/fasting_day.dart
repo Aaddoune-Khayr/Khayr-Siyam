@@ -76,6 +76,30 @@ class FastingDay {
     }
   }
 
+  // Get the notification benefits text (for notification body)
+  String getNotifBenefits(AppLocalizations localizations) {
+    switch (type) {
+      case FastingDayType.mondayThursday:
+        return localizations.notifMondayThursdayBenefits;
+      case FastingDayType.whiteDays:
+        return localizations.notifWhiteDaysBenefits;
+      case FastingDayType.arafat:
+        return localizations.notifArafatBenefits;
+      case FastingDayType.ashura:
+        return localizations.notifAshuraBenefits;
+      case FastingDayType.shawwal:
+        return localizations.notifShawwalBenefits;
+      case FastingDayType.dhulHijjahDay:
+        return localizations.notifDhulHijjahBenefits;
+      case FastingDayType.ramadan:
+        return localizations.notifRamadanBenefits;
+      case FastingDayType.eidAlFitr:
+      case FastingDayType.eidAlAdha:
+      case FastingDayType.tashriqDay:
+        return localizations.notifGeneralBenefits;
+    }
+  }
+
   // Get the color for the fasting day type
   int getColor() {
     switch (type) {

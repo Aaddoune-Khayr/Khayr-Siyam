@@ -937,6 +937,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Tashriq Days'**
   String get tashriqDays;
+
+  /// No description provided for @notifMondayThursdayBenefits.
+  ///
+  /// In en, this message translates to:
+  /// **'The Prophet (ﷺ) used to fast on Mondays and Thursdays. Deeds are presented to Allah on these days — fasting on them is among the most beloved acts of worship.'**
+  String get notifMondayThursdayBenefits;
+
+  /// No description provided for @notifWhiteDaysBenefits.
+  ///
+  /// In en, this message translates to:
+  /// **'The white days (13th, 14th, 15th of each lunar month) — fasting these three days is equivalent to fasting a whole month. A simple and highly rewarding practice.'**
+  String get notifWhiteDaysBenefits;
+
+  /// No description provided for @notifArafatBenefits.
+  ///
+  /// In en, this message translates to:
+  /// **'Fasting on the Day of Arafat (9th Dhul Hijjah) expiates the sins of the preceding year and the coming year. One of the greatest fasting days of the year.'**
+  String get notifArafatBenefits;
+
+  /// No description provided for @notifAshuraBenefits.
+  ///
+  /// In en, this message translates to:
+  /// **'Fasting on the Day of Ashura (10th Muharram) expiates the sins of the preceding year. It is recommended to also fast the 9th or 11th.'**
+  String get notifAshuraBenefits;
+
+  /// No description provided for @notifShawwalBenefits.
+  ///
+  /// In en, this message translates to:
+  /// **'Fasting 6 days of Shawwal after Ramadan is equivalent to fasting the whole year. Complete your year of worship.'**
+  String get notifShawwalBenefits;
+
+  /// No description provided for @notifDhulHijjahBenefits.
+  ///
+  /// In en, this message translates to:
+  /// **'The first 9 days of Dhul Hijjah are among the best days of the year. Fasting them is a great act of worship beloved to Allah.'**
+  String get notifDhulHijjahBenefits;
+
+  /// No description provided for @notifRamadanBenefits.
+  ///
+  /// In en, this message translates to:
+  /// **'Ramadan is the blessed month of obligatory fasting. Every deed is multiplied — seize this sacred time.'**
+  String get notifRamadanBenefits;
+
+  /// No description provided for @notifGeneralBenefits.
+  ///
+  /// In en, this message translates to:
+  /// **'Voluntary fasting brings spiritual purification, increases divine reward, and draws the believer closer to Allah.'**
+  String get notifGeneralBenefits;
 }
 
 class _AppLocalizationsDelegate

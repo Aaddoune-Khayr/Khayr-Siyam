@@ -474,4 +474,36 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tashriqDays => 'Jours de Tashriq';
+
+  @override
+  String get notifMondayThursdayBenefits =>
+      'Le Prophète (ﷺ) jeûnait les lundis et jeudis. Les œuvres sont présentées à Allah ces jours-là — jeûner ces jours est parmi les actes d\'adoration les plus aimés.';
+
+  @override
+  String get notifWhiteDaysBenefits =>
+      'Les jours blancs (13, 14, 15 de chaque mois lunaire) — jeûner ces trois jours équivaut à jeûner tout un mois. Une pratique simple et très méritoire.';
+
+  @override
+  String get notifArafatBenefits =>
+      'Le jeûne du jour d\'Arafat (9 Dhul Hijjah) expie les péchés de l\'année précédente et de l\'année à venir. L\'un des plus grands jours de jeûne de l\'année.';
+
+  @override
+  String get notifAshuraBenefits =>
+      'Le jeûne du jour d\'Achoura (10 Mouharram) expie les péchés de l\'année précédente. Il est recommandé de jeûner aussi le 9 ou le 11.';
+
+  @override
+  String get notifShawwalBenefits =>
+      'Jeûner 6 jours de Shawwal après le Ramadan équivaut à jeûner toute l\'année. Complétez votre année d\'adoration.';
+
+  @override
+  String get notifDhulHijjahBenefits =>
+      'Les 9 premiers jours de Dhul Hijjah sont parmi les meilleurs jours de l\'année. Les jeûner est un grand acte d\'adoration aimé d\'Allah.';
+
+  @override
+  String get notifRamadanBenefits =>
+      'Ramadan est le mois béni du jeûne obligatoire. Chaque acte est multiplié — saisissez ce temps sacré.';
+
+  @override
+  String get notifGeneralBenefits =>
+      'Le jeûne volontaire apporte une purification spirituelle, augmente la récompense divine et rapproche le croyant d\'Allah.';
 }

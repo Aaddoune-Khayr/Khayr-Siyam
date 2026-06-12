@@ -146,5 +146,14 @@
   "ramadan": "Ramadan",
   "eidAlFitr": "Eid al-Fitr",
   "eidAlAdha": "Eid al-Adha",
-  "tashriqDays": "Tashriq Days"
+  "tashriqDays": "Tashriq Days",
+
+  "notifMondayThursdayBenefits": "The Prophet (ﷺ) used to fast on Mondays and Thursdays. Deeds are presented to Allah on these days — fasting on them is among the most beloved acts of worship.",
+  "notifWhiteDaysBenefits": "The white days (13th, 14th, 15th of each lunar month) — fasting these three days is equivalent to fasting a whole month. A simple and highly rewarding practice.",
+  "notifArafatBenefits": "Fasting on the Day of Arafat (9th Dhul Hijjah) expiates the sins of the preceding year and the coming year. One of the greatest fasting days of the year.",
+  "notifAshuraBenefits": "Fasting on the Day of Ashura (10th Muharram) expiates the sins of the preceding year. It is recommended to also fast the 9th or 11th.",
+  "notifShawwalBenefits": "Fasting 6 days of Shawwal after Ramadan is equivalent to fasting the whole year. Complete your year of worship.",
+  "notifDhulHijjahBenefits": "The first 9 days of Dhul Hijjah are among the best days of the year. Fasting them is a great act of worship beloved to Allah.",
+  "notifRamadanBenefits": "Ramadan is the blessed month of obligatory fasting. Every deed is multiplied — seize this sacred time.",
+  "notifGeneralBenefits": "Voluntary fasting brings spiritual purification, increases divine reward, and draws the believer closer to Allah."
 }
